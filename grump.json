@@ -1,0 +1,9 @@
+{
+  "defaultCommand": "credits",
+  "commands": {
+    "credits": {
+      "scriptType": "bash",
+      "scriptPath": "index.sh"
+    }
+  }
+}
