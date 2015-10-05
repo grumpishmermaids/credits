@@ -1,9 +1,5 @@
 #!/bin/bash
 pwd="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )";
-if [ ! -e "$pwd/main" ]
-then
-  make -f $pwd/Makefile;
-fi
 echo "Creators of Grump\n";
 echo "Keith Armstrong";
 echo "Beasta Blaha";
